@@ -1,0 +1,1272 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Moto_Phone</name>
+    </assembly>
+    <members>
+        <member name="T:Moto_Phone.ViewModels.AdDetailsChangeViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.Ad">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.ad"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehicleImages">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehicleImages"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.AdUpdate">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.adUpdate"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.AdIdmove">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.adIdmove"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.AdTypeId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.adTypeId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.CategoryId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.categoryId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehicleId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehicleId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehicleTitle">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehicleTitle"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehicleCompanyId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehicleCompanyId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehicleModelId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehicleModelId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehicleDescription">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehicleDescription"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehiclePrice">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehiclePrice"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehicleYear">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehicleYear"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehicleEngine">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehicleEngine"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehicleColor">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehicleColor"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.VehicleLocation">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.vehicleLocation"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.SelectedModel">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel._selectedModel"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.IsModelEnabled">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel._isModelEnabled"/>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.getAdDetailsCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.GetAdDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.GetAdDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.AdDetailsChangeViewModel.GetAdDetails"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.updateAdDetailsCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.UpdateAdDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.UpdateAdDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.AdDetailsChangeViewModel.UpdateAdDetails"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.updateAdDetailsImagesCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.UpdateAdDetailsImagesCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.UpdateAdDetailsImagesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.AdDetailsChangeViewModel.UpdateAdDetailsImages"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.getVehicleCategoriesCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.GetVehicleCategoriesCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.GetVehicleCategoriesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.AdDetailsChangeViewModel.GetVehicleCategories"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.AdDetailsChangeViewModel.getAdTypesCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.GetAdTypesCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsChangeViewModel.GetAdTypesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.AdDetailsChangeViewModel.GetAdTypes"/>.</summary>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.AdDetailsPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsPageViewModel.Ad">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsPageViewModel.ad"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsPageViewModel.VehicleImages">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsPageViewModel.vehicleImages"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AdDetailsPageViewModel.Id">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AdDetailsPageViewModel.id"/>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.AddImagesViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddImagesViewModel.EntityId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddImagesViewModel.entityId"/>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.AddImagesViewModel.saveImageCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.AddImagesViewModel.SaveImageCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddImagesViewModel.SaveImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.AddImagesViewModel.SaveImage"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.AddImagesViewModel.saveMultiCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.AddImagesViewModel.SaveMultiCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddImagesViewModel.SaveMultiCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.AddImagesViewModel.SaveMulti"/>.</summary>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.AddingAdViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.AdId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.adId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.AdTypeId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.adTypeId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.CategoryId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.categoryId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.VehicleTitle">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.vehicleTitle"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.VehicleDescription">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.vehicleDescription"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.VehiclePrice">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.vehiclePrice"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.VehicleModelId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.vehicleModelId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.VehicleYear">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.vehicleYear"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.VehicleEngine">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.vehicleEngine"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.VehicleColor">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.vehicleColor"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.VehicleCompanyId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.vehicleCompanyId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.VehicleLocation">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.vehicleLocation"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.ApplicationUserId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.applicationUserId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.EntityId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.entityId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.VehicleId">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.vehicleId"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.CategoryName">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel.categoryName"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.SelectedModel">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel._selectedModel"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.IsModelEnabled">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.AddingAdViewModel._isModelEnabled"/>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.AddingAdViewModel.getVehicleCategoriesCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.AddingAdViewModel.GetVehicleCategoriesCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.GetVehicleCategoriesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.AddingAdViewModel.GetVehicleCategories"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.AddingAdViewModel.getAdTypesCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.AddingAdViewModel.GetAdTypesCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.GetAdTypesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.AddingAdViewModel.GetAdTypes"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.AddingAdViewModel.saveAdCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.AddingAdViewModel.SaveAdCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.AddingAdViewModel.SaveAdCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.AddingAdViewModel.SaveAd"/>.</summary>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.BaseViewModel.title"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.BaseViewModel.IsLoading">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.BaseViewModel.isLoading"/>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.HomePageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.HomePageViewModel.User">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.HomePageViewModel.user"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.HomePageViewModel.Search">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.HomePageViewModel.search"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.HomePageViewModel.HomepageSearch">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.HomePageViewModel.homepageSearch"/>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.HomePageViewModel.getUsernameCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.HomePageViewModel.GetUsernameCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.HomePageViewModel.GetUsernameCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.HomePageViewModel.GetUsername"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.HomePageViewModel.getAdsListCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.HomePageViewModel.GetAdsListCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.HomePageViewModel.GetAdsListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.HomePageViewModel.GetAdsList"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.HomePageViewModel.getAdsByNameCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.HomePageViewModel.GetAdsByNameCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.HomePageViewModel.GetAdsByNameCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.HomePageViewModel.GetAdsByName"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.HomePageViewModel.getAdDetailsCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.HomePageViewModel.GetAdDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.HomePageViewModel.GetAdDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.HomePageViewModel.GetAdDetails(System.Int32)"/>.</summary>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.ListPageTempViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.ListPageTempViewModel.Search">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.ListPageTempViewModel.search"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.ListPageTempViewModel.HomepageSearch">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.ListPageTempViewModel.homepageSearch"/>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.ListPageTempViewModel.getAdsListCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.ListPageTempViewModel.GetAdsListCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.ListPageTempViewModel.GetAdsListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.ListPageTempViewModel.GetAdsList"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.ListPageTempViewModel.getAdsByNameCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.ListPageTempViewModel.GetAdsByNameCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.ListPageTempViewModel.GetAdsByNameCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.ListPageTempViewModel.GetAdsByName"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.ListPageTempViewModel.getAdDetailsCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.ListPageTempViewModel.GetAdDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.ListPageTempViewModel.GetAdDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.ListPageTempViewModel.GetAdDetails(System.Int32)"/>.</summary>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.ListPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.ListPageViewModel.Search">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.ListPageViewModel.search"/>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.ListPageViewModel.getAdsListCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.ListPageViewModel.GetAdsListCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.ListPageViewModel.GetAdsListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.ListPageViewModel.GetAdsList"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.ListPageViewModel.getAdsByNameCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.ListPageViewModel.GetAdsByNameCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.ListPageViewModel.GetAdsByNameCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.ListPageViewModel.GetAdsByName"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.ListPageViewModel.getAdDetailsCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.ListPageViewModel.GetAdDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.ListPageViewModel.GetAdDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.ListPageViewModel.GetAdDetails(System.Int32)"/>.</summary>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.LoginViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.LoginViewModel.Username">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.LoginViewModel.username"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.LoginViewModel.Password">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.LoginViewModel.password"/>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.LoginViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.LoginViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.LoginViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.LoginViewModel.Login"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.LoginViewModel.registerMoveCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.LoginViewModel.RegisterMoveCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.LoginViewModel.RegisterMoveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.LoginViewModel.RegisterMove"/>.</summary>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.LogoutViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.LogoutViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.LogoutViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.LogoutViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.LogoutViewModel.Logout"/>.</summary>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.MyAdsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.MyAdsViewModel.AdIdmove">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.MyAdsViewModel.adIdmove"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.MyAdsViewModel.VehicleTitle">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.MyAdsViewModel.vehicleTitle"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.MyAdsViewModel.VehicleModel">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.MyAdsViewModel.vehicleModel"/>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.MyAdsViewModel.getMyAdsListCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.MyAdsViewModel.GetMyAdsListCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.MyAdsViewModel.GetMyAdsListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.MyAdsViewModel.GetMyAdsList"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.MyAdsViewModel.deleteAdCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.MyAdsViewModel.DeleteAdCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.MyAdsViewModel.DeleteAdCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.MyAdsViewModel.DeleteAd(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.MyAdsViewModel.showDetailsCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.MyAdsViewModel.ShowDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.MyAdsViewModel.ShowDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.MyAdsViewModel.ShowDetails"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.MyAdsViewModel.getAdDetailsCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.MyAdsViewModel.GetAdDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.MyAdsViewModel.GetAdDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.MyAdsViewModel.GetAdDetails(System.Int32)"/>.</summary>
+        </member>
+        <member name="T:Moto_Phone.ViewModels.RegisterViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.RegisterViewModel.Username">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.RegisterViewModel.username"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.RegisterViewModel.Password">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.RegisterViewModel.password"/>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.RegisterViewModel.Password1">
+            <inheritdoc cref="F:Moto_Phone.ViewModels.RegisterViewModel.password1"/>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.RegisterViewModel.registerCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.RegisterViewModel.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.RegisterViewModel.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.RegisterViewModel.Register"/>.</summary>
+        </member>
+        <member name="F:Moto_Phone.ViewModels.RegisterViewModel.loginMoveCommand">
+            <summary>The backing field for <see cref="P:Moto_Phone.ViewModels.RegisterViewModel.LoginMoveCommand"/>.</summary>
+        </member>
+        <member name="P:Moto_Phone.ViewModels.RegisterViewModel.LoginMoveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Moto_Phone.ViewModels.RegisterViewModel.LoginMove"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_EntryCell">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_EntryCell.TextStart``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_EntryCell.TextCenterHorizontal``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_EntryCell.TextEnd``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_EntryCell.TextTop``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_EntryCell.TextCenterVertical``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_EntryCell.TextBottom``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_EntryCell.TextCenter``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_EntryCell">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_EntryCell.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_EntryCell.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Editor">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Editor.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Editor.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Entry">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Entry.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Entry.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Label">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Label.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Label.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Picker">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Picker.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_Picker.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_SearchBar">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_SearchBar.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.LeftToRight.TextAlignmentExtensions_SearchBar.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_EntryCell">
+            <summary>
+            Extension methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_EntryCell.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_EntryCell.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Editor">
+            <summary>
+            Extension methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Editor.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Editor.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Entry">
+            <summary>
+            Extension methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Entry.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Entry.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Label">
+            <summary>
+            Extension methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Label.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Label.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Picker">
+            <summary>
+            Extension methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Picker.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_Picker.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_SearchBar">
+            <summary>
+            Extension methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_SearchBar.TextLeft``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.RightToLeft.TextAlignmentExtensions_SearchBar.TextRight``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Editor">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Editor.TextStart``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Editor.TextCenterHorizontal``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Editor.TextEnd``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Editor.TextTop``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Editor.TextCenterVertical``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Editor.TextBottom``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Editor.TextCenter``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Entry">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Entry.TextStart``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Entry.TextCenterHorizontal``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Entry.TextEnd``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Entry.TextTop``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Entry.TextCenterVertical``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Entry.TextBottom``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Entry.TextCenter``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Label">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Label.TextStart``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Label.TextCenterHorizontal``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Label.TextEnd``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Label.TextTop``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Label.TextCenterVertical``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Label.TextBottom``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Label.TextCenter``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Picker">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Picker.TextStart``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Picker.TextCenterHorizontal``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Picker.TextEnd``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Picker.TextTop``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Picker.TextCenterVertical``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Picker.TextBottom``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_Picker.TextCenter``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_SearchBar">
+            <summary>
+            Extension Methods for <see cref="T:Microsoft.Maui.ITextAlignment"/>
+            </summary>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_SearchBar.TextStart``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_SearchBar.TextCenterHorizontal``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_SearchBar.TextEnd``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_SearchBar.TextTop``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Start"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Start"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_SearchBar.TextCenterVertical``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_SearchBar.TextBottom``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.End"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.End"/></returns>
+        </member>
+        <member name="M:CommunityToolkit.Maui.Markup.TextAlignmentExtensions_SearchBar.TextCenter``1(``0)">
+            <summary>
+            <see cref="P:Microsoft.Maui.ITextAlignment.VerticalTextAlignment"/> = <see cref="P:Microsoft.Maui.ITextAlignment.HorizontalTextAlignment"/> = <see cref="F:Microsoft.Maui.TextAlignment.Center"/>
+            </summary>
+            <param name="textAlignmentControl"></param>
+            <returns><typeparamref name="TAssignable"/> with added <see cref="F:Microsoft.Maui.TextAlignment.Center"/></returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Ad">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Ad" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleImages">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleImages" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AdUpdate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AdUpdate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AdIdmove">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AdIdmove" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AdTypeId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AdTypeId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CategoryId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CategoryId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleCompanyId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleCompanyId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleModelId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleModelId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehiclePrice">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehiclePrice" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleYear">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleYear" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleEngine">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleEngine" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleLocation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleLocation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsModelEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsModelEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EntityId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EntityId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AdId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AdId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ApplicationUserId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ApplicationUserId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CategoryName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CategoryName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.User">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "User" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Search">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Search" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.HomepageSearch">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "HomepageSearch" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VehicleModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VehicleModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password1">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password1" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Ad">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Ad" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleImages">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleImages" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AdUpdate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AdUpdate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AdIdmove">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AdIdmove" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AdTypeId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AdTypeId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CategoryId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CategoryId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleCompanyId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleCompanyId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleModelId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleModelId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehiclePrice">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehiclePrice" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleYear">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleYear" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleEngine">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleEngine" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleLocation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleLocation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsModelEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsModelEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EntityId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EntityId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AdId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AdId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ApplicationUserId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ApplicationUserId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CategoryName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CategoryName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsNotLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsNotLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.User">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "User" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Search">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Search" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.HomepageSearch">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "HomepageSearch" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VehicleModel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VehicleModel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password1">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password1" generated properties.</summary>
+        </member>
+    </members>
+</doc>

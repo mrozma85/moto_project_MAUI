@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Moto_Phone.Views.AddingAd"
+             xmlns:model="clr-namespace:Moto_Phone.Models"
+             xmlns:viewmodel="clr-namespace:Moto_Phone.ViewModels"
+             x:DataType="viewmodel:AddingAdViewModel"
+             Title="Dodawanie ogłoszenia">
+
+    <VerticalStackLayout Padding="5" Grid.Row="0" Margin="9">
+        <Picker Title="Wybierz typ ogłoszenia" x:Name="PickerAdTypes" x:DataType="model:AdType" ItemDisplayBinding="{Binding Name}" SelectedIndexChanged="PickerAdTypes_SelectedIndexChanged">
+        </Picker>
+
+        <Picker Title="Wybierz kategorie" x:Name="PickerCategory" x:DataType="model:Category" ItemDisplayBinding="{Binding Name}" SelectedIndexChanged="PickerCategory_SelectedIndexChanged">
+        </Picker>
+
+        <Picker ItemsSource="{Binding Companies}" Title="Wybierz producenta" ItemDisplayBinding="{Binding Name}" SelectedItem="{Binding SelectedCompany}"></Picker>
+        <Picker ItemsSource="{Binding  Models}" Title="Wybierz model" ItemDisplayBinding="{Binding Name}" IsEnabled="{Binding IsModelEnabled}" SelectedItem="{Binding SelectedModel}"></Picker>
+
+        <Entry x:Name="Title" Placeholder="Wpisz nazwe ogłoszenia" Text="{Binding VehicleTitle}"/>
+        <Entry x:Name="Description" Placeholder="Wpisz opis pojazdu" Text="{Binding VehicleDescription}"/>
+        <Entry x:Name="Price" Placeholder="Wpisz cene" Text="{Binding VehiclePrice}"/>
+        <Entry x:Name="Year" Placeholder="Wpisz rok produkcji" Text="{Binding VehicleYear}"/>
+        <Entry x:Name="Engine" Placeholder="Wpisz pojemność slinika" Text="{Binding VehicleEngine}"/>
+        <Entry x:Name="Color" Placeholder="Wpisz kolor" Text="{Binding VehicleColor}"/>
+        <Entry x:Name="Location" Placeholder="Wpisz lokalizacje" Text="{Binding VehicleLocation}"/>
+
+        <Button Text="Dodaj" 
+                Command="{Binding SaveAdCommand}"/>
+    </VerticalStackLayout>
+    
+</ContentPage>

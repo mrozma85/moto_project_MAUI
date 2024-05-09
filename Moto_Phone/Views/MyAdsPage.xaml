@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Moto_Phone.Views.MyAdsPage"
+             xmlns:converters="clr-namespace:Moto_Phone.Converter"
+             xmlns:viewmodel="clr-namespace:Moto_Phone.ViewModels"
+             xmlns:models="clr-namespace:Moto_Phone.Models"
+             x:DataType="viewmodel:MyAdsViewModel"
+             Title="Moje ogłoszenia">
+
+    <ScrollView>
+        <StackLayout>
+            <ListView ItemsSource="{Binding Ads}"
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Ad">
+                        <ViewCell Height="150">
+                            <Grid Padding="10">
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ListPageViewModel}}, Path=GetAdDetailsCommand }" 
+                                                      CommandParameter="{Binding Id}"/>
+                                </Grid.GestureRecognizers>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="7*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Grid.Row="0"
+                                   Grid.Column="0"
+                                   Grid.RowSpan="4"
+                                   Source="{Binding FullImageData, Converter={StaticResource ByteArrayToImage}}"                                           
+                                   Aspect="AspectFit"/>
+
+                                <StackLayout Orientation="Horizontal"
+                                         Grid.Row="0"
+                                         Grid.Column="1">
+                                    <Frame BackgroundColor="#001970"
+                                       Padding="10,0,10,0">
+                                        <Label TextColor="White"
+                                       Text="{Binding Category.Name}"/>
+                                    </Frame>
+                                </StackLayout>
+
+                                <StackLayout Grid.Row="1"
+                                         Grid.Column="1"
+                                         Orientation="Horizontal">
+                                    <Label TextColor="#303F9F"
+                                       Text="{Binding Vehicle.Color}"/>
+                                    <Label TextColor="#303F9F"
+                                       HorizontalOptions="EndAndExpand"
+                                       Text="{Binding Vehicle.Price, StringFormat='{0} PLN'}"
+                                       FontAttributes="Bold" />
+                                </StackLayout>
+
+                                <Label TextColor="Black"
+                                   FontAttributes="Bold"
+                                   Grid.Row="2"
+                                   Grid.Column="1"
+                                   Text="{Binding Vehicle.Title}"/>
+
+                                <StackLayout Orientation="Horizontal"
+                                         Grid.Row="3"
+                                         Grid.Column="1">
+                                    <Image Source="locationicon.png" />
+                                    <Label LineBreakMode="TailTruncation"
+                                       VerticalTextAlignment="Center"
+                                       TextColor="#303F9F"
+                                       Text="{Binding Vehicle.Location}"/>
+                                </StackLayout>
+                                <Button Text="Zmień" Grid.Row="4" Grid.Column="0" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MyAdsViewModel}}, Path=GetAdDetailsCommand}" 
+                                                          CommandParameter="{Binding Id}" Margin="9"/>
+
+                                <Button Text="Usuń" Grid.Row="4" Grid.Column="1" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MyAdsViewModel}}, Path=DeleteAdCommand }" 
+                                                          CommandParameter="{Binding Id}" Margin="9"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ScrollView>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ByteArrayToImageSourceConverter x:Key="ByteArrayToImage"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+</ContentPage>

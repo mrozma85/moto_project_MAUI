@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Moto_Phone.Views.AdDetailsPage"
+             xmlns:viewmodel="clr-namespace:Moto_Phone.ViewModels"
+             xmlns:controls="clr-namespace:Moto_Phone.Controls"
+             xmlns:models="clr-namespace:Moto_Phone.Models"
+             x:DataType="viewmodel:AdDetailsPageViewModel"
+             xmlns:ff="clr-namespace:FFImageLoading.Maui;assembly=FFImageLoading.Compat.Maui"
+             xmlns:transform="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Compat.Transformations"
+             xmlns:svg="clr-namespace:FFImageLoading.Svg.Maui;assembly=FFImageLoading.Compat.Svg.Maui"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:converters="clr-namespace:Moto_Phone.Converter"
+             Title="Szczegóły pojazdu">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="10, 15">
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text=" Witaj admin@gmail.com ! &#10;"
+                  TextColor="Black"
+                  FontSize="20"
+                  FontAttributes="Bold"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="9*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <BoxView BackgroundColor="Transparent"
+                         Opacity="0.3"
+                             Grid.Row="0"
+                             Grid.Column="0"
+                             Grid.RowSpan="3"
+                             Grid.ColumnSpan="3"/>
+
+                <CarouselView ItemsSource="{Binding VehicleImages}" EmptyView="Wczytuje" IndicatorView="indicatorView" HeightRequest="180" WidthRequest="360"
+                           Grid.Row="0"
+                                  Grid.Column="0"
+                                  Grid.RowSpan="3"
+                                  Grid.ColumnSpan="3">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate x:DataType="models:VehicleImages">
+                            <Image Source="{Binding FileData, Converter={StaticResource ByteArrayToImage}}"
+                                   Aspect="AspectFill"/>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+            </CarouselView>
+            </Grid>
+
+            <IndicatorView x:Name="indicatorView" Margin="15" HorizontalOptions="Center" IndicatorColor="Blue" SelectedIndicatorColor="Black"/>
+
+            <BoxView BackgroundColor="#707070"
+                         HeightRequest="1" />
+
+            <controls:Spacer Space="10"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="1"
+                       Padding="5"
+                       FontSize="24"                       
+                       Text="{Binding Ad[0].Vehicle.Price, StringFormat='{0} pln'}"
+                       TextColor="#1d94ab"
+                       FontAttributes="Bold"/>
+
+                <Label Grid.Row="2"
+                       FontSize="20"
+                       HorizontalTextAlignment="Center"
+                       Margin="15"
+                       FontAttributes="Bold"
+                       Text="{Binding Ad[0].Vehicle.Title}"/>
+
+                <Image Grid.Row="3" 
+                       Grid.Column="0" HeightRequest="25" HorizontalOptions="Center" Source="location.png" />
+
+                <Label Grid.Row="4" 
+                       Grid.Column="0"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"
+                       Margin="15"
+                       FontAttributes="Bold"
+                       Text="{Binding Ad[0].Vehicle.Location}"/>
+            </Grid>
+            
+            <controls:Spacer Space="25"/>
+            
+            <BoxView BackgroundColor="#707070"
+             HeightRequest="1" />
+
+            <Label Text="Szczegóły"
+                   TextColor="#1d94ab"
+                   Style="{StaticResource H3}"
+                   LineHeight="1.3"
+                   Opacity="0.8"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Margin="5" HorizontalTextAlignment="Center" Style="{StaticResource H5}" TextColor="#ACACAC" Text="Marka:"/>
+                <Label Grid.Row="1" Grid.Column="0" Margin="5" HorizontalTextAlignment="Center" Style="{StaticResource H5}" TextColor="#ACACAC" Text="Model:"/>
+                <Label Grid.Row="2" Grid.Column="0" Margin="5" HorizontalTextAlignment="Center" Style="{StaticResource H5}" TextColor="#ACACAC" Text="Kolor:"/>
+                <Label Grid.Row="3" Grid.Column="0" Margin="5" HorizontalTextAlignment="Center" Style="{StaticResource H5}" TextColor="#ACACAC" Text="Rok produkcji:"/>
+                <Label Grid.Row="4" Grid.Column="0" Margin="5" HorizontalTextAlignment="Center" Style="{StaticResource H5}" TextColor="#ACACAC" Text="Pojemność silnika:" />
+                <Label Grid.Row="5" Grid.Column="0" Margin="5" HorizontalTextAlignment="Center" Style="{StaticResource H5}" TextColor="#ACACAC" Text="Lokalizacja:"/>
+
+                <Label Grid.Row="0" Grid.Column="1" Margin="5" HorizontalTextAlignment="Start" Style="{StaticResource H5}" Text="{Binding Ad[0].Vehicle.Model.Company.Name}"/>
+                <Label Grid.Row="1" Grid.Column="1" Margin="5" HorizontalTextAlignment="Start" Style="{StaticResource H5}" Text="{Binding Ad[0].Vehicle.Model.Name}"/>
+                <Label Grid.Row="2" Grid.Column="1" Margin="5" HorizontalTextAlignment="Start" Style="{StaticResource H5}" Text="{Binding Ad[0].Vehicle.Color}"/>
+                <Label Grid.Row="3" Grid.Column="1" Margin="5" HorizontalTextAlignment="Start" Style="{StaticResource H5}" Text="{Binding Ad[0].Vehicle.Year}"/>
+                <Label Grid.Row="4" Grid.Column="1" Margin="5" HorizontalTextAlignment="Start" Style="{StaticResource H5}" Text="{Binding Ad[0].Vehicle.Engine, StringFormat='{0} cc'}"/>
+                <Label Grid.Row="5" Grid.Column="1" Margin="5" HorizontalTextAlignment="Start" Style="{StaticResource H5}" Text="{Binding Ad[0].Vehicle.Location}"/>
+            </Grid>
+
+            <BoxView BackgroundColor="#707070"
+                     HeightRequest="1" />
+
+            <Label Text="Opis pojazdu"
+                   TextColor="#1d94ab"
+                   Style="{StaticResource H3}"
+                   LineHeight="1.3"
+                  Opacity="0.8"/>
+
+            <Label Grid.Row="0" Grid.Column="1" Margin="5" HorizontalTextAlignment="Start" Style="{StaticResource H5}" Text="{Binding Ad[0].Vehicle.Description}"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+            <converters:ByteArrayToImageSourceConverter x:Key="ByteArrayToImage"/>
+
+            <Style TargetType="Label" x:Key="H1">
+                <Setter Property="FontSize" Value="24"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0, 10"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="H2">
+                <Setter Property="FontSize" Value="22"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0, 8"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="H3">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0, 6"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="H4">
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0, 4"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="H5">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0, 2"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="H6">
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0, 1"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+</ContentPage>

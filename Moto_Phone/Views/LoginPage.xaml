@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Moto_Phone.Views.LoginPage"
+             xmlns:viewmodel="clr-namespace:Moto_Phone.ViewModels"
+             x:DataType="viewmodel:LoginViewModel"
+             Title="Logowanie">
+    <VerticalStackLayout
+        Spacing="25" 
+        Padding="30,0" 
+        VerticalOptions="Center">
+
+        <Image Source="hero.jpg"></Image>
+
+        <VerticalStackLayout Spacing="5">
+            <Label Text="Logowanie" FontSize="24" TextColor="Black" 
+                   HorizontalTextAlignment="Center" />
+        </VerticalStackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                     
+                     HorizontalOptions="Center">
+            <Entry x:Name="Username" Placeholder="E-mail" FontSize="Medium" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center" Text="{Binding Username}" HeightRequest="60" WidthRequest="300"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center">
+            <Entry x:Name="Password" Placeholder="Hasło" FontSize="Medium" FontAttributes="Bold" IsPassword="True" Text="{Binding Password}" HorizontalTextAlignment="Center" HeightRequest="60" WidthRequest="300" />
+        </StackLayout>
+
+        <Button Text="Zaloguj się" WidthRequest="250" CornerRadius="2" HorizontalOptions="Center" 
+                Command="{Binding LoginCommand}" />
+
+        <VerticalStackLayout Spacing="15">
+            <Label Text="Nie masz konta, kliknij poniżej" FontSize="14"  TextColor="Black" 
+           HorizontalTextAlignment="Center" />
+        </VerticalStackLayout>
+
+        <Button Margin="-25" Text="Zarejestruj się" WidthRequest="250" CornerRadius="2" HorizontalOptions="Center" 
+        Command="{Binding RegisterMoveCommand}" />
+    </VerticalStackLayout>
+</ContentPage>

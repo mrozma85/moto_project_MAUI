@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Moto_Phone.Views.AddImagesPage"
+             xmlns:model="clr-namespace:Moto_Phone.Models"
+             xmlns:viewmodel="clr-namespace:Moto_Phone.ViewModels"
+             x:DataType="viewmodel:AddImagesViewModel"
+             Title="AddImagesPage">
+    <VerticalStackLayout>
+        
+        <Label 
+            Text="{Binding EntityId}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <!--<Button Text="Dodaj zdjęcie" 
+                Command="{Binding SaveImageCommand}"/>-->
+
+        <Button Text="Dodaj zdjęcia" 
+                Command="{Binding SaveMultiCommand}"/>
+
+    </VerticalStackLayout>
+    
+</ContentPage>

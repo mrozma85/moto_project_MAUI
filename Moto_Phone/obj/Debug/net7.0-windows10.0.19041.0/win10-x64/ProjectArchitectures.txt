@@ -1,0 +1,1 @@
+D:\ProjektInzynierski\Moto\Moto_Phone\Moto_Phone.csproj;x64

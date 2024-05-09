@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Moto_Phone.Views.RegisterPage"
+             xmlns:viewmodel="clr-namespace:Moto_Phone.ViewModels"
+             x:DataType="viewmodel:RegisterViewModel"
+             Title="Rejestracja">
+     
+    <VerticalStackLayout
+    Spacing="25" 
+    Padding="30,0" 
+    VerticalOptions="Center">
+
+        <Image Source="hero.jpg"></Image>
+
+        <VerticalStackLayout Spacing="5">
+            <Label Text="Rejestracja" FontSize="24" TextColor="Black" 
+               HorizontalTextAlignment="Center" />
+        </VerticalStackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="Center"
+                 Margin="20">
+            <Entry x:Name="Username" Placeholder="E-mail" Text="{Binding Username}" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="Center">
+            <Entry x:Name="Password" Placeholder="Hasło" IsPassword="True" Text="{Binding Password}" HorizontalTextAlignment="Center" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal"
+         HorizontalOptions="Center">
+            <Entry x:Name="PasswordRepet" Placeholder="Powtórz hasło" IsPassword="True" Text="{Binding Password1}" HorizontalTextAlignment="Center" />
+        </StackLayout>
+
+        <Button Text="Zarejestruj się" WidthRequest="250" CornerRadius="2" HorizontalOptions="Center" 
+            Command="{Binding RegisterCommand}" />
+
+        <VerticalStackLayout Spacing="15">
+            <Label Text="Masz już konto, kliknij poniżej" FontSize="14"  TextColor="Black" 
+       HorizontalTextAlignment="Center" />
+        </VerticalStackLayout>
+
+        <Button Margin="-25" Text="Zaloguj się" WidthRequest="250" CornerRadius="2" HorizontalOptions="Center" 
+    Command="{Binding LoginMoveCommand}" />
+    </VerticalStackLayout>
+
+</ContentPage>

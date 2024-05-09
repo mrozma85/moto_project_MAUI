@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Moto_Phone.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Moto_Phone"
+    xmlns:localsecond="clr-namespace:Moto_Phone.Views"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Shell.TabBarBackgroundColor="{StaticResource AliceBlue}"
+    Shell.TabBarTitleColor="{StaticResource Black}"
+    Shell.TabBarForegroundColor="{StaticResource White}"
+    Shell.BackgroundColor="{StaticResource AliceBlue}"
+    Shell.FlyoutBehavior="Flyout">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate localsecond:LoadingPage}"
+        Route="LoadingPage" />
+
+</Shell>

@@ -1,0 +1,125 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Moto_Phone
+build_property.ProjectDir = C:\Users\mrozm\Desktop\motoMAUI\Moto_Phone\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Controls/FlyOutHeader.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Controls.FlyOutHeader.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\FlyOutHeader.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\FlyOutHeader.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Controls/Spacer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Controls.Spacer.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\Spacer.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\Spacer.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/AdDetailsChangePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.AdDetailsChangePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AdDetailsChangePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AdDetailsChangePage.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/AdDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.AdDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AdDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AdDetailsPage.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/AddImagesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.AddImagesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddImagesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddImagesPage.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/AddingAd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.AddingAd.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddingAd.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddingAd.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/ListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.ListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListPage.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/ListPageTemp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.ListPageTemp.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListPageTemp.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListPageTemp.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/LoadingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.LoadingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoadingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoadingPage.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/MyAdsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.MyAdsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MyAdsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MyAdsPage.xaml
+
+[C:/Users/mrozm/Desktop/motoMAUI/Moto_Phone/Views/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Moto_Phone.Views.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegisterPage.xaml
